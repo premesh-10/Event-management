@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <h1>Welcome to the YASH Event Management System</h1>
+    <p>Hello user!!!<br>Thank you for visiting. <br> This is our official page for event managements.<br> Here you can add your event title,name and its details etc.<br>You will have a seamless experience while using our web</p>
+    <a href="{{ url_for('add_event') }}">Add Event</a> | 
+    <a href="{{ url_for('view_events') }}">View Events</a>
+</body>
+</html>
